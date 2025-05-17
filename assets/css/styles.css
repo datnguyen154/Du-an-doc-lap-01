@@ -6,8 +6,8 @@ html {
     font-size: 62.5%;
 }
 
-:root{
-    --primary-color: #1EBFC1;
+:root {
+    --primary-color: #1ebfc1;
 }
 
 body {
@@ -25,6 +25,20 @@ a {
     max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.8rem;
+    min-width: 186px;
+    height: 68px;
+    font-weight: 600;
+    border-radius: 1.4rem;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
 }
 
 /* Header */
@@ -60,14 +74,14 @@ a {
     text-shadow: 1px 0 0 currentColor;
 }
 
-.sign-btn{
+.sign-btn {
     color: #494949;
     font-size: 1.6rem;
     margin-right: 24px;
     margin-left: 157px;
 }
 
-.header .action .action-active{
+.header .action .action-active {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -81,4 +95,46 @@ a {
     text-align: center;
     border-radius: 0.6rem;
     border: 1px solid var(--primary-color);
+}
+
+/* Hero */
+.hero-left .desc1 {
+    color: #767e7e;
+    font-size: 1.4rem;
+    margin-top: 150px;
+    padding-bottom: 18px;
+}
+
+.hero-left h1 {
+    color: #0d1111;
+    width: 458px;
+    font-size: 6.2rem;
+    margin-bottom: 46px;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.hero-left .desc {
+    color: #9da6a5;
+    width: 374px;
+    margin-bottom: 52px;
+    font-size: 1.8rem;
+    line-height: 1.78;
+}
+
+.hero-left .button{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hero-left .icon  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
 }
