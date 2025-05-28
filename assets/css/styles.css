@@ -495,3 +495,33 @@ a {
     background: #1ebfc1;
     border-radius: 50%;
 }
+
+/* Stats */
+.stat {
+    margin-top: 389px;
+}
+
+.stat .stat-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 210px;
+}
+
+.stat .stat-list .stat-item strong {
+    color: #0d1111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+}
+
+.stat .stat-list .stat-item .desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #767e7e;
+    font-size: 1.8rem;
+    margin-top: 35px;
+}
