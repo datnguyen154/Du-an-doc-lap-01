@@ -647,3 +647,37 @@ a {
     right: 389px;
     bottom: 0px;
 }
+
+/* Admit */
+.admit{
+    margin-top: 130px;
+    background:  #DEF6F5;
+}
+
+.admit .body{
+    display: flex;
+}
+
+.admit .body .ready{
+    margin-right: 410px;
+}
+
+.admit .body .ready strong{
+    display: inline-block;
+    padding-top: 76px;
+    width: 42rem;
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.admit .body .ready .desc{
+    color: #767E7E;
+    font-size: 1.8rem;
+    margin-top: 18px;
+    padding-bottom: 88px;
+}
+
+.admit .body a{
+    margin-top: 96px;
+}
