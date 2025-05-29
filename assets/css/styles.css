@@ -525,3 +525,125 @@ a {
     font-size: 1.8rem;
     margin-top: 35px;
 }
+
+/* Feedback */
+.feedback {
+    margin-top: 264px;
+}
+
+.feedback .body {
+    display: flex;
+}
+
+.feedback .left blockquote {
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    width: 419px;
+    margin-top: 27px;
+    margin-bottom: 33px;
+}
+
+.feedback .left .reviewer {
+    position: relative;
+    color: #767e7e;
+    font-size: 1.6rem;
+    margin-left: 9px;
+    margin-bottom: 52px;
+}
+
+.feedback .left .reviewer strong {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.feedback .left .reviewer::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -13px;
+    width: 0.8rem;
+    height: 0.2rem;
+    background: #070707;
+}
+
+.feedback .icon {
+    display: flex;
+}
+
+.feedback .icon .chevron-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 23px;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #2ac9bf;
+}
+
+.feedback .icon .chevron-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #2ac9bf;
+}
+
+.feedback .right {
+    position: relative;
+    width: 679px;
+    height: 481px;
+    margin-left: 72px;
+}
+
+.user {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-1 {
+    top: 0;
+    left: 144px;
+}
+
+.user-2 {
+    width: 110px;
+    height: 110px;
+    top: 19px;
+    right: 0;
+}
+
+.user-3 {
+    width: 235px;
+    height: 235px;
+    top: 107px;
+    right: 171px;
+}
+
+.user-4 {
+    width: 78px;
+    height: 78px;
+    left: 0;
+    bottom: 145px;
+}
+
+.user-5 {
+    width: 78px;
+    height: 78px;
+    right: 32px;
+    bottom: 20px;
+}
+
+.user-6 {
+    width: 78px;
+    height: 78px;
+    right: 389px;
+    bottom: 0px;
+}
