@@ -649,20 +649,23 @@ a {
 }
 
 /* Admit */
-.admit{
+.admit {
     margin-top: 130px;
-    background:  #DEF6F5;
+    background: #def6f5;
 }
 
-.admit .body{
+.admit .body {
     display: flex;
+    align-items: center;
+    
 }
 
-.admit .body .ready{
+.admit .body .ready {
+    max-width: 60%;
     margin-right: 410px;
 }
 
-.admit .body .ready strong{
+.admit .body .ready strong {
     display: inline-block;
     padding-top: 76px;
     width: 42rem;
@@ -671,13 +674,17 @@ a {
     font-weight: 700;
 }
 
-.admit .body .ready .desc{
-    color: #767E7E;
+.admit .body .ready .desc {
+    color: #767e7e;
     font-size: 1.8rem;
-    margin-top: 18px;
+    margin-top: 34px;
     padding-bottom: 88px;
 }
 
-.admit .body a{
-    margin-top: 96px;
+.admit .button {
+  display: flex;
+  align-items: center; 
 }
+
+
+
