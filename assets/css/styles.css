@@ -657,7 +657,6 @@ a {
 .admit .body {
     display: flex;
     align-items: center;
-    
 }
 
 .admit .body .ready {
@@ -682,9 +681,52 @@ a {
 }
 
 .admit .button {
-  display: flex;
-  align-items: center; 
+    display: flex;
+    align-items: center;
 }
 
+/* Footer */
+footer .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 140px;
+    margin-bottom: 50px;
+}
 
+footer .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+footer .column .title {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+footer .column .title.soci{
+    margin-bottom: 20px;
+}
+
+footer .column .list a {
+    display: inline-block;
+    color: #535353;
+    font-size: 1.6rem;
+    margin-bottom: 27px;
+}
+
+footer .column .list.fb a{
+    margin-bottom: 18px;
+}
+
+footer .copyright  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
